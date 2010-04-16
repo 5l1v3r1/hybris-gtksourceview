@@ -1,0 +1,20 @@
+Questi sono i file necessari per abilitare tutti gli editor basati sul componente GtkSourceView ad evidenziare correttamente
+la sintassi degli script in Hybris (con estensione .hy).
+
+Il file 'hybris.xml' serve per creare il mime type corretto sul sistema, quindi va copiato in 
+	
+	/usr/share/mime/packages/
+	
+Poi bisogna eseguire il comando 
+
+	update-mime-database /usr/share/mime/
+	
+per aggiornare il db dei mime types. 
+
+Successivamente, andrà copiato il file hybris.lang dentro la cartella
+
+	~/.gnome2/gtksourceview-1.0/language-specs/
+	
+che se non esiste va precedentemente creata.
+
+Fatto questo, tutti gli editor come gedit, anjuta, scribes, ecc coloreranno la sintassi degli script in Hybris.

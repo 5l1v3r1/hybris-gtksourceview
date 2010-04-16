@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="Hybris" version="1.0" _section="Scripts" mimetypes="application/x-hybris">
+	
+	<escape-char>\</escape-char>
+	
+	<string _name="String" style="String" end-at-line-end="TRUE">
+		<start-regex>"</start-regex>
+		<end-regex>"</end-regex>
+	</string>
+
+	<string _name="String 2" style="String" end-at-line-end="TRUE">
+		<start-regex>'</start-regex>
+		<end-regex>'</end-regex>
+	</string>
+
+	<line-comment _name="Line Comment" style="Comment">
+		<start-regex>//</start-regex>
+	</line-comment>
+
+	<block-comment _name="Block Comment" style="Comment">
+		<start-regex>/\*</start-regex>
+    <end-regex>\*/</end-regex>
+	</block-comment>
+	
+	<pattern-item _name="Punctuators" style="Others 3">
+		<regex>[{}();:,.]</regex>		
+	</pattern-item>
+	
+	<pattern-item _name="Operators" style="Function">
+		<regex>[-~^@/%|=+*!?&amp;&lt;&gt;\.\-]</regex>
+	</pattern-item>
+	
+	<pattern-item _name="Array Operators" style="Function">
+		<regex>(\[|\])</regex>
+	</pattern-item>
+	
+	<pattern-item _name="Hexadecimal Number" style="Base-N Integer">
+		<regex>0[xX][a-fA-F0-9]+</regex>
+	</pattern-item>
+	
+	<pattern-item _name="Number" style="Decimal">
+		<regex>0|[\+-]?[1-9][0-9]*</regex>
+	</pattern-item>
+	
+	<pattern-item _name="Floating-Point Number" style="Floating Point">
+		<regex>[\+-]?(0|[1-9][0-9]*)?\.[0-9]+([Ee][\+-]?[1-9][0-9]*)?</regex>
+	</pattern-item>
+	
+	<keyword-list _name="Keywords" style="Keyword" case-sensitive="TRUE">
+		<keyword>function</keyword>
+	</keyword-list>
+	
+	<keyword-list _name="Flow Keywords" style="Keyword" case-sensitive="TRUE">
+		<keyword>break</keyword>
+		<keyword>case</keyword>
+		<keyword>default</keyword>
+		<keyword>do</keyword>
+		<keyword>else</keyword>
+		<keyword>for</keyword>
+		<keyword>foreach</keyword>
+		<keyword>if</keyword>
+		<keyword>return</keyword>
+		<keyword>switch</keyword>
+		<keyword>while</keyword>
+	</keyword-list>
+	
+	<keyword-list _name="Word Operators" style="Function" case-sensitive="TRUE">
+		<keyword>typeof</keyword>
+	</keyword-list>
+	
+	
+	<keyword-list _name="Global Properties" style="Data Type" case-sensitive="TRUE">
+		<keyword>true</keyword>
+		<keyword>false</keyword>
+		<keyword>__VERSION__</keyword>
+		<keyword>__LIB_PATH__</keyword>
+		<keyword>__INC_PATH__</keyword>				
+	</keyword-list>
+	
+	<keyword-list _name="Global Functions" style="Function" case-sensitive="TRUE">
+		<keyword>crc32</keyword>
+		<keyword>sha2</keyword>
+		<keyword>sha1</keyword>
+		<keyword>md5</keyword>
+		<keyword>rex_match</keyword>
+		<keyword>rex_matches</keyword>
+		<keyword>rex_replace</keyword>
+		<keyword>smtp_send</keyword>
+		<keyword>http_get</keyword>
+		<keyword>http_post</keyword>
+		<keyword>http</keyword>
+		<keyword>settimeout</keyword>
+		<keyword>connect</keyword>
+		<keyword>server</keyword>
+		<keyword>accept</keyword>
+		<keyword>recv</keyword>
+		<keyword>send</keyword>
+		<keyword>close</keyword>
+		<keyword>print</keyword>
+		<keyword>println</keyword>
+		<keyword>printf</keyword>
+		<keyword>input</keyword>
+		<keyword>xml_load</keyword>
+		<keyword>xml_parse</keyword>
+		<keyword>fopen</keyword>
+		<keyword>fseek</keyword>
+		<keyword>ftell</keyword>
+		<keyword>fsize</keyword>
+		<keyword>fread</keyword>
+		<keyword>fwrite</keyword>
+		<keyword>fgets</keyword>
+		<keyword>fclose</keyword>
+		<keyword>file</keyword>
+		<keyword>readdir</keyword>
+		<keyword>strlen</keyword>
+		<keyword>strfind</keyword>
+		<keyword>substr</keyword>
+		<keyword>strreplace</keyword>
+		<keyword>strsplit</keyword>
+		<keyword>array</keyword>
+		<keyword>elements</keyword>
+		<keyword>pop</keyword>
+		<keyword>remove</keyword>
+		<keyword>contains</keyword>
+		<keyword>matrix</keyword>
+		<keyword>columns</keyword>
+		<keyword>rows</keyword>
+		<keyword>binary</keyword>
+		<keyword>pack</keyword>
+		<keyword>map</keyword>
+		<keyword>mapelements</keyword>
+		<keyword>mappop</keyword>
+		<keyword>unmap</keyword>
+		<keyword>ismapped</keyword>
+		<keyword>haskey</keyword>
+		<keyword>isint</keyword>
+		<keyword>isfloat</keyword>
+		<keyword>ischar</keyword>
+		<keyword>isstring</keyword>
+		<keyword>isarray</keyword>
+		<keyword>ismap</keyword>
+		<keyword>isalias</keyword>
+		<keyword>typeof</keyword>
+		<keyword>sizeof</keyword>
+		<keyword>toint</keyword>
+		<keyword>tostring</keyword>
+		<keyword>fromxml</keyword>
+		<keyword>toxml</keyword>
+		<keyword>var_names</keyword>
+		<keyword>var_values</keyword>
+		<keyword>user_functions</keyword>
+		<keyword>dyn_functions</keyword>
+		<keyword>call</keyword>
+		<keyword>urlencode</keyword>
+		<keyword>urldecode</keyword>
+		<keyword>base64encode</keyword>
+		<keyword>base64decode</keyword>
+		<keyword>dllopen</keyword>
+		<keyword>dlllink</keyword>
+		<keyword>dllcall</keyword>
+		<keyword>dllclose</keyword>
+		<keyword>pthread_create</keyword>
+		<keyword>pthread_exit</keyword>
+		<keyword>pthread_join</keyword>
+		<keyword>ticks</keyword>
+		<keyword>usleep</keyword>
+		<keyword>sleep</keyword>
+		<keyword>time</keyword>
+		<keyword>strtime</keyword>
+		<keyword>strdate</keyword>
+		<keyword>exec</keyword>
+		<keyword>fork</keyword>
+		<keyword>getpid</keyword>
+		<keyword>wait</keyword>
+		<keyword>popen</keyword>
+		<keyword>pclose</keyword>
+		<keyword>exit</keyword>
+		<keyword>acos</keyword>
+		<keyword>asin</keyword>
+		<keyword>atan</keyword>
+		<keyword>atan2</keyword>
+		<keyword>ceil</keyword>
+		<keyword>cos</keyword>
+		<keyword>cosh</keyword>
+		<keyword>exp</keyword>
+		<keyword>fabs</keyword>
+		<keyword>floor</keyword>
+		<keyword>fmod</keyword>
+		<keyword>log</keyword>
+		<keyword>log10</keyword>
+		<keyword>pow</keyword>
+		<keyword>sin</keyword>
+		<keyword>sinh</keyword>
+		<keyword>sqrt</keyword>
+		<keyword>tan</keyword>
+		<keyword>tanh</keyword>
+	</keyword-list>
+	
+	<keyword-list _name="Constructors" style="Others 2" case-sensitive="TRUE">
+		<keyword>array</keyword>
+		<keyword>map</keyword>
+		<keyword>binary</keyword>
+		<keyword>matrix</keyword>
+	</keyword-list>
+	
+	<keyword-list _name = "Preprocessor Definitions" style = "Preprocessor" case-sensitive="TRUE"
+		match-empty-string-at-beginning = "FALSE"
+		match-empty-string-at-end = "TRUE">
+		<keyword>import</keyword>
+		<keyword>include</keyword>
+	</keyword-list>
+
+</language>
