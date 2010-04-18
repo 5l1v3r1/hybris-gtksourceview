@@ -49,6 +49,9 @@
 	
 	<keyword-list _name="Keywords" style="Keyword" case-sensitive="TRUE">
 		<keyword>function</keyword>
+		<keyword>method</keyword>
+		<keyword>struct</keyword>
+		<keyword>class</keyword>	
 	</keyword-list>
 	
 	<keyword-list _name="Flow Keywords" style="Keyword" case-sensitive="TRUE">
@@ -71,6 +74,7 @@
 	
 	
 	<keyword-list _name="Global Properties" style="Data Type" case-sensitive="TRUE">
+		<keyword>me</keyword>
 		<keyword>true</keyword>
 		<keyword>false</keyword>
 		<keyword>__VERSION__</keyword>
