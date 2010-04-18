@@ -53,6 +53,10 @@
 		<keyword>new</keyword>
 		<keyword>struct</keyword>
 		<keyword>class</keyword>	
+		<keyword>extends</keyword>	
+		<keyword>public</keyword>	
+		<keyword>private</keyword>	
+		<keyword>protected</keyword>	
 		<keyword>me</keyword>
 	</keyword-list>
 	
