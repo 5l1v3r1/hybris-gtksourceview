@@ -68,6 +68,7 @@
 		<keyword>else</keyword>
 		<keyword>for</keyword>
 		<keyword>foreach</keyword>
+		<keyword>of</keyword>
 		<keyword>if</keyword>
 		<keyword>return</keyword>
 		<keyword>switch</keyword>
