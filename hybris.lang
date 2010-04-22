@@ -77,12 +77,14 @@
 	
 	<keyword-list _name="Word Operators" style="Function" case-sensitive="TRUE">
 		<keyword>typeof</keyword>
+		<keyword>sizeof</keyword>
 	</keyword-list>
 	
 	
 	<keyword-list _name="Global Properties" style="Data Type" case-sensitive="TRUE">
 		<keyword>true</keyword>
 		<keyword>false</keyword>
+		<keyword>null</keyword>
 		<keyword>__VERSION__</keyword>
 		<keyword>__LIB_PATH__</keyword>
 		<keyword>__INC_PATH__</keyword>				
