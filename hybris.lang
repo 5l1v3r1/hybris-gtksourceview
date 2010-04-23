@@ -74,6 +74,7 @@
 		<keyword>return</keyword>
 		<keyword>switch</keyword>
 		<keyword>while</keyword>
+		<keyword>throw</keyword>
 		<keyword>try</keyword>
 		<keyword>catch</keyword>
 		<keyword>finally</keyword>
