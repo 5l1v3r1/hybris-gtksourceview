@@ -62,6 +62,7 @@
 	
 	<keyword-list _name="Flow Keywords" style="Keyword" case-sensitive="TRUE">
 		<keyword>break</keyword>
+		<keyword>next</keyword>
 		<keyword>case</keyword>
 		<keyword>default</keyword>
 		<keyword>do</keyword>
