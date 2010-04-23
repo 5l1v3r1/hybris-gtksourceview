@@ -74,6 +74,9 @@
 		<keyword>return</keyword>
 		<keyword>switch</keyword>
 		<keyword>while</keyword>
+		<keyword>try</keyword>
+		<keyword>catch</keyword>
+		<keyword>finally</keyword>
 	</keyword-list>
 	
 	<keyword-list _name="Word Operators" style="Function" case-sensitive="TRUE">
