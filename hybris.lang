@@ -50,6 +50,7 @@
 	<keyword-list _name="Keywords" style="Keyword" case-sensitive="TRUE">
 		<keyword>function</keyword>
 		<keyword>method</keyword>
+		<keyword>operator</keyword>
 		<keyword>new</keyword>
 		<keyword>struct</keyword>
 		<keyword>class</keyword>	
