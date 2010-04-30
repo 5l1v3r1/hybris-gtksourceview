@@ -104,9 +104,7 @@
 		<keyword>sha2</keyword>
 		<keyword>sha1</keyword>
 		<keyword>md5</keyword>
-		<keyword>rex_match</keyword>
-		<keyword>rex_matches</keyword>
-		<keyword>rex_replace</keyword>
+		<keyword>pcre_replace</keyword>
 		<keyword>smtp_send</keyword>
 		<keyword>http_get</keyword>
 		<keyword>http_post</keyword>
@@ -139,11 +137,13 @@
 		<keyword>substr</keyword>
 		<keyword>strreplace</keyword>
 		<keyword>strsplit</keyword>
+		<keyword>trim</keyword>
 		<keyword>array</keyword>
 		<keyword>elements</keyword>
 		<keyword>pop</keyword>
 		<keyword>remove</keyword>
 		<keyword>contains</keyword>
+		<keyword>join</keyword>
 		<keyword>matrix</keyword>
 		<keyword>columns</keyword>
 		<keyword>rows</keyword>
@@ -162,12 +162,12 @@
 		<keyword>isarray</keyword>
 		<keyword>ismap</keyword>
 		<keyword>isalias</keyword>
-		<keyword>typeof</keyword>
-		<keyword>sizeof</keyword>
 		<keyword>toint</keyword>
 		<keyword>tostring</keyword>
 		<keyword>fromxml</keyword>
 		<keyword>toxml</keyword>
+		<keyword>load</keyword>
+		<keyword>eval</keyword>
 		<keyword>var_names</keyword>
 		<keyword>var_values</keyword>
 		<keyword>user_functions</keyword>
@@ -175,6 +175,10 @@
 		<keyword>methods</keyword>
 		<keyword>call</keyword>
 		<keyword>call_method</keyword>
+		<keyword>gc_collect</keyword>
+		<keyword>gc_mm_items</keyword>
+		<keyword>gc_mm_usage</keyword>
+		<keyword>gc_mm_threshold</keyword>
 		<keyword>urlencode</keyword>
 		<keyword>urldecode</keyword>
 		<keyword>base64encode</keyword>
@@ -182,10 +186,13 @@
 		<keyword>dllopen</keyword>
 		<keyword>dlllink</keyword>
 		<keyword>dllcall</keyword>
+		<keyword>dllcall_argv</keyword>
 		<keyword>dllclose</keyword>
 		<keyword>pthread_create</keyword>
+		<keyword>pthread_create_argv</keyword>
 		<keyword>pthread_exit</keyword>
 		<keyword>pthread_join</keyword>
+		<keyword>pthread_kill</keyword>
 		<keyword>ticks</keyword>
 		<keyword>usleep</keyword>
 		<keyword>sleep</keyword>
@@ -199,6 +206,7 @@
 		<keyword>popen</keyword>
 		<keyword>pclose</keyword>
 		<keyword>exit</keyword>
+		<keyword>kill</keyword>
 		<keyword>acos</keyword>
 		<keyword>asin</keyword>
 		<keyword>atan</keyword>
@@ -218,6 +226,7 @@
 		<keyword>sqrt</keyword>
 		<keyword>tan</keyword>
 		<keyword>tanh</keyword>
+
 
 		<keyword>__to_string</keyword>
 		<keyword>__size</keyword>
