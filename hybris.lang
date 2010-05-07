@@ -16,6 +16,7 @@
 
 	<line-comment _name="Line Comment" style="Comment">
 		<start-regex>//</start-regex>
+		<start-regex>\#</start-regex>
 	</line-comment>
 
 	<block-comment _name="Block Comment" style="Comment">
@@ -72,6 +73,7 @@
 		<keyword>foreach</keyword>
 		<keyword>of</keyword>
 		<keyword>if</keyword>
+		<keyword>unless</keyword>
 		<keyword>return</keyword>
 		<keyword>switch</keyword>
 		<keyword>while</keyword>
@@ -96,7 +98,7 @@
 		<keyword>__LINE__</keyword>
 		<keyword>__VERSION__</keyword>
 		<keyword>__LIB_PATH__</keyword>
-		<keyword>__INC_PATH__</keyword>				
+		<keyword>__INC_PATH__</keyword>			
 	</keyword-list>
 	
 	<keyword-list _name="Global Functions" style="Function" case-sensitive="TRUE">
