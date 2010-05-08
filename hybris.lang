@@ -106,11 +106,13 @@
 		<keyword>sha2</keyword>
 		<keyword>sha1</keyword>
 		<keyword>md5</keyword>
+		<keyword>md5_file</keyword>
 		<keyword>pcre_replace</keyword>
 		<keyword>smtp_send</keyword>
 		<keyword>http_get</keyword>
 		<keyword>http_post</keyword>
 		<keyword>http</keyword>
+		<keyword>http_download</keyword>
 		<keyword>settimeout</keyword>
 		<keyword>connect</keyword>
 		<keyword>server</keyword>
@@ -164,6 +166,8 @@
 		<keyword>isarray</keyword>
 		<keyword>ismap</keyword>
 		<keyword>isalias</keyword>
+		<keyword>typeof</keyword>
+		<keyword>sizeof</keyword>
 		<keyword>toint</keyword>
 		<keyword>tostring</keyword>
 		<keyword>fromxml</keyword>
@@ -180,7 +184,7 @@
 		<keyword>gc_collect</keyword>
 		<keyword>gc_mm_items</keyword>
 		<keyword>gc_mm_usage</keyword>
-		<keyword>gc_mm_threshold</keyword>
+		<keyword>gc_collect_threshold</keyword>
 		<keyword>urlencode</keyword>
 		<keyword>urldecode</keyword>
 		<keyword>base64encode</keyword>
@@ -201,6 +205,7 @@
 		<keyword>time</keyword>
 		<keyword>strtime</keyword>
 		<keyword>strdate</keyword>
+		<keyword>env</keyword>
 		<keyword>exec</keyword>
 		<keyword>fork</keyword>
 		<keyword>getpid</keyword>
