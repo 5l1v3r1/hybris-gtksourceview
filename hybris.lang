@@ -56,6 +56,7 @@
 		<keyword>struct</keyword>
 		<keyword>class</keyword>	
 		<keyword>extends</keyword>	
+		<keyword>static</keyword>
 		<keyword>public</keyword>	
 		<keyword>private</keyword>	
 		<keyword>protected</keyword>	
@@ -102,85 +103,6 @@
 	</keyword-list>
 	
 	<keyword-list _name="Global Functions" style="Function" case-sensitive="TRUE">
-		<keyword>crc32</keyword>
-		<keyword>sha2</keyword>
-		<keyword>sha1</keyword>
-		<keyword>md5</keyword>
-		<keyword>md5_file</keyword>
-		<keyword>pcre_replace</keyword>
-		<keyword>smtp_send</keyword>
-		<keyword>http_get</keyword>
-		<keyword>http_post</keyword>
-		<keyword>http</keyword>
-		<keyword>http_download</keyword>
-		<keyword>settimeout</keyword>
-		<keyword>connect</keyword>
-		<keyword>server</keyword>
-		<keyword>accept</keyword>
-		<keyword>recv</keyword>
-		<keyword>send</keyword>
-		<keyword>close</keyword>
-		<keyword>print</keyword>
-		<keyword>println</keyword>
-		<keyword>printf</keyword>
-		<keyword>input</keyword>
-		<keyword>xml_load</keyword>
-		<keyword>xml_parse</keyword>
-		<keyword>fopen</keyword>
-		<keyword>fseek</keyword>
-		<keyword>ftell</keyword>
-		<keyword>fsize</keyword>
-		<keyword>fread</keyword>
-		<keyword>fwrite</keyword>
-		<keyword>fgets</keyword>
-		<keyword>fclose</keyword>
-		<keyword>file</keyword>
-		<keyword>readdir</keyword>
-		<keyword>strlen</keyword>
-		<keyword>strfind</keyword>
-		<keyword>substr</keyword>
-		<keyword>strreplace</keyword>
-		<keyword>strsplit</keyword>
-		<keyword>trim</keyword>
-		<keyword>array</keyword>
-		<keyword>elements</keyword>
-		<keyword>pop</keyword>
-		<keyword>remove</keyword>
-		<keyword>contains</keyword>
-		<keyword>join</keyword>
-		<keyword>matrix</keyword>
-		<keyword>columns</keyword>
-		<keyword>rows</keyword>
-		<keyword>binary</keyword>
-		<keyword>pack</keyword>
-		<keyword>map</keyword>
-		<keyword>mapelements</keyword>
-		<keyword>mappop</keyword>
-		<keyword>unmap</keyword>
-		<keyword>ismapped</keyword>
-		<keyword>haskey</keyword>
-		<keyword>isint</keyword>
-		<keyword>isfloat</keyword>
-		<keyword>ischar</keyword>
-		<keyword>isstring</keyword>
-		<keyword>isarray</keyword>
-		<keyword>ismap</keyword>
-		<keyword>isalias</keyword>
-		<keyword>typeof</keyword>
-		<keyword>sizeof</keyword>
-		<keyword>toint</keyword>
-		<keyword>tostring</keyword>
-		<keyword>fromxml</keyword>
-		<keyword>toxml</keyword>
-		<keyword>load</keyword>
-		<keyword>eval</keyword>
-		<keyword>var_names</keyword>
-		<keyword>var_values</keyword>
-		<keyword>user_functions</keyword>
-		<keyword>dyn_functions</keyword>
-		<keyword>methods</keyword>
-		<keyword>call</keyword>
-		<keyword>call_method</keyword>
 		<keyword>gc_collect</keyword>
 		<keyword>gc_mm_items</keyword>
 		<keyword>gc_mm_usage</keyword>
@@ -189,31 +111,11 @@
 		<keyword>urldecode</keyword>
 		<keyword>base64encode</keyword>
 		<keyword>base64decode</keyword>
-		<keyword>dllopen</keyword>
-		<keyword>dlllink</keyword>
-		<keyword>dllcall</keyword>
-		<keyword>dllcall_argv</keyword>
-		<keyword>dllclose</keyword>
-		<keyword>pthread_create</keyword>
-		<keyword>pthread_create_argv</keyword>
-		<keyword>pthread_exit</keyword>
-		<keyword>pthread_join</keyword>
-		<keyword>pthread_kill</keyword>
-		<keyword>ticks</keyword>
-		<keyword>usleep</keyword>
-		<keyword>sleep</keyword>
-		<keyword>time</keyword>
-		<keyword>strtime</keyword>
-		<keyword>strdate</keyword>
-		<keyword>env</keyword>
-		<keyword>exec</keyword>
-		<keyword>fork</keyword>
-		<keyword>getpid</keyword>
-		<keyword>wait</keyword>
-		<keyword>popen</keyword>
-		<keyword>pclose</keyword>
-		<keyword>exit</keyword>
-		<keyword>kill</keyword>
+		<keyword>sha1</keyword>
+		<keyword>crc32</keyword>
+		<keyword>sha2</keyword>
+		<keyword>md5</keyword>
+		<keyword>md5_file</keyword>
 		<keyword>acos</keyword>
 		<keyword>asin</keyword>
 		<keyword>atan</keyword>
@@ -233,7 +135,110 @@
 		<keyword>sqrt</keyword>
 		<keyword>tan</keyword>
 		<keyword>tanh</keyword>
-
+		<keyword>strlen</keyword>
+		<keyword>strfind</keyword>
+		<keyword>substr</keyword>
+		<keyword>strreplace</keyword>
+		<keyword>strsplit</keyword>
+		<keyword>trim</keyword>
+		<keyword>map</keyword>
+		<keyword>mapelements</keyword>
+		<keyword>mappop</keyword>
+		<keyword>unmap</keyword>
+		<keyword>ismapped</keyword>
+		<keyword>haskey</keyword>
+		<keyword>array</keyword>
+		<keyword>elements</keyword>
+		<keyword>pop</keyword>
+		<keyword>remove</keyword>
+		<keyword>contains</keyword>
+		<keyword>join</keyword>
+		<keyword>isint</keyword>
+		<keyword>isfloat</keyword>
+		<keyword>ischar</keyword>
+		<keyword>isstring</keyword>
+		<keyword>isarray</keyword>
+		<keyword>ismap</keyword>
+		<keyword>isalias</keyword>
+		<keyword>typeof</keyword>
+		<keyword>sizeof</keyword>
+		<keyword>toint</keyword>
+		<keyword>tostring</keyword>
+		<keyword>fromxml</keyword>
+		<keyword>toxml</keyword>
+		<keyword>matrix</keyword>
+		<keyword>columns</keyword>
+		<keyword>rows</keyword>
+		<keyword>binary</keyword>
+		<keyword>pack</keyword>
+		<keyword>load</keyword>
+		<keyword>eval</keyword>
+		<keyword>var_names</keyword>
+		<keyword>var_values</keyword>
+		<keyword>user_functions</keyword>
+		<keyword>dyn_functions</keyword>
+		<keyword>methods</keyword>
+		<keyword>call</keyword>
+		<keyword>call_method</keyword>
+		<keyword>ticks</keyword>
+		<keyword>usleep</keyword>
+		<keyword>sleep</keyword>
+		<keyword>time</keyword>
+		<keyword>strtime</keyword>
+		<keyword>strdate</keyword>
+		<keyword>dllopen</keyword>
+		<keyword>dlllink</keyword>
+		<keyword>dllcall</keyword>
+		<keyword>dllcall_argv</keyword>
+		<keyword>dllclose</keyword>
+		<keyword>env</keyword>
+		<keyword>exec</keyword>
+		<keyword>fork</keyword>
+		<keyword>getpid</keyword>
+		<keyword>wait</keyword>
+		<keyword>popen</keyword>
+		<keyword>pclose</keyword>
+		<keyword>exit</keyword>
+		<keyword>kill</keyword>
+		<keyword>pthread_create</keyword>
+		<keyword>pthread_create_argv</keyword>
+		<keyword>pthread_exit</keyword>
+		<keyword>pthread_join</keyword>
+		<keyword>pthread_kill</keyword>
+		<keyword>smtp_send</keyword>
+		<keyword>http_get</keyword>
+		<keyword>http_post</keyword>
+		<keyword>http</keyword>
+		<keyword>http_download</keyword>
+		<keyword>socket</keyword>
+		<keyword>bind</keyword>
+		<keyword>listen</keyword>
+		<keyword>accept</keyword>
+		<keyword>getsockname</keyword>
+		<keyword>getpeername</keyword>
+		<keyword>settimeout</keyword>
+		<keyword>connect</keyword>
+		<keyword>server</keyword>
+		<keyword>recv</keyword>
+		<keyword>send</keyword>
+		<keyword>close</keyword>
+		<keyword>print</keyword>
+		<keyword>println</keyword>
+		<keyword>printf</keyword>
+		<keyword>input</keyword>
+		<keyword>xml_load</keyword>
+		<keyword>xml_parse</keyword>
+		<keyword>fopen</keyword>
+		<keyword>fseek</keyword>
+		<keyword>ftell</keyword>
+		<keyword>fsize</keyword>
+		<keyword>fread</keyword>
+		<keyword>fwrite</keyword>
+		<keyword>fgets</keyword>
+		<keyword>fclose</keyword>
+		<keyword>file</keyword>
+		<keyword>readdir</keyword>
+		<keyword>pcre_replace</keyword>
 
 		<keyword>__to_string</keyword>
 		<keyword>__size</keyword>
